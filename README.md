@@ -40,3 +40,27 @@ Clone this repository to your local machine:
 git clone https://github.com/yourusername/jwt-auth-api.git
 cd jwt-auth-api
 ```
+### Setup Database
+H2 Database: If you're using the H2 embedded database, no additional setup is required. It will be used automatically in the development environment.
+
+### Build the Application
+Use Maven to build the project:
+
+```bash
+mvn clean install
+```
+
+### Run the Application
+You can run the application with the following command:
+
+```bash
+mvn spring-boot:run
+```
+
+
+
+
+
+
+
+
